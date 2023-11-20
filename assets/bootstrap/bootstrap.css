@@ -294,6 +294,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+
 }
 
 table {
@@ -6932,7 +6933,9 @@ textarea.form-control-lg {
 }
 
 .w-100 {
-  width: 100% !important;
+ /* width: 100% !important;*/
+  width: 1128px;
+  height: 521px;
 }
 
 .w-auto {
