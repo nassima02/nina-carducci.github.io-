@@ -6933,9 +6933,7 @@ textarea.form-control-lg {
 }
 
 .w-100 {
- /* width: 100% !important;*/
-  width: 1128px;
-  height: 521px;
+  width: 100% !important;
 }
 
 .w-auto {
