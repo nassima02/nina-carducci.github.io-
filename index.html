@@ -8,22 +8,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="abcdefghijklmnopqrstuvwxyz1234567890">
 
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">-->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--    <script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="preload" href="./assets/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="./assets/style.min.css"></noscript>
+<!--    <link rel="stylesheet" href="./assets/style.min.css">-->
 
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"></noscript>
-
-<!--    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-
+<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">-->
 
     <script src="./assets/scripts.js" defer></script>
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Nina Carducci photographe",
+            "image": "http://www.googleusercontent.com/assets/images/nina.webp",
+            "telephone": "05 56 67 78 89",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": ": 68 avenue Alsace-Lorraine",
+                "addressLocality": "Bordeaux",
+                "postalCode": "33200"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": {
+                    "@type": "DayOfWeek",
+                    "name": "du lundi au vendredi"
+                },
+                "opens": "10:00",
+                "closes": "19:00"
+            }
+        }
+    </script>
 
 </head>
 
@@ -165,10 +192,12 @@
     </div>
 
     <div class="quote">
-        <blockquote>
-            <p class="quote__text " >Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
-            <p class="quote__author">- Richard Avedon</p>
-        </blockquote>
+        <figure>
+            <blockquote>
+                <p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
+            </blockquote>
+            <figcaption class="quote__author">- Richard Avedon</figcaption>
+        </figure>
     </div>
 
     <div id="services">
@@ -208,10 +237,12 @@
         </div>
     </div>
     <div class="quote">
-        <blockquote>
-            <p class="quote__text citation">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
-            <p class="quote__author">- Richard Avedon</p>
-        </blockquote>
+        <figure>
+            <blockquote>
+                <p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
+            </blockquote>
+            <figcaption class="quote__author">- Richard Avedon</figcaption>
+        </figure>
     </div>
 </main>
 <footer>
