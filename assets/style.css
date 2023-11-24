@@ -141,7 +141,9 @@ img{
 	display: flex;
 	font-size: 24px;
 }
-
+.citation{
+	font-size: 2rem;
+}
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -153,8 +155,8 @@ img{
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
 }
+
 .quote__author {
 	font-family: Spectral;
 	font-weight: 800;
