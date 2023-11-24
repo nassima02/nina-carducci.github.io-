@@ -3,7 +3,7 @@ const galleryItemsfilter = document.querySelectorAll('.gallery-item');
 // Sélectionnez tous les bouttons du filtre avec la classe "nav-link"
 const tagsList = document.querySelectorAll('.nav-link');
 
-let filteredGalleryImages = [];
+let filteredGalleryImages = []; // TODO initialiser le tableau avec la liste des images au chargement de la page
 
 let myModal = null;
 let isModalInit = false;
@@ -17,7 +17,6 @@ galleryItems.forEach(function (item, index) {
              *          INITIALISATION CARROUSEL
              ********************************************/
 
-            const carousel = document.querySelector("#carouselExampleControls");
             const myCarousel = new bootstrap.Carousel(document.querySelector('#carouselExampleControls'), {
                 interval: false // Désactive le défilement automatique
             });
