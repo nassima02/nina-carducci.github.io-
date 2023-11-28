@@ -73,7 +73,6 @@ function showImageModal() {
 			filteredModalImages.forEach(function (img, index) {
 				const carouselItem = document.createElement("div");
 				carouselItem.className = `carousel-item ${img === image ? 'active' : ''}`;
-				// carouselItem.className = "carousel-item active";
 				carouselItem.innerHTML = '<img src="' + img.src + '" class="d-block w-100" alt="..." loading="lazy">';
 				carouselInner.appendChild(carouselItem);
 			});
